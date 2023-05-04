@@ -11,6 +11,5 @@ function onFormSubmit(event) {
       return;  
     }
     console.log({formEmail, formPassword});
-    alert("Дані відправлені");
     form.reset();
 }
